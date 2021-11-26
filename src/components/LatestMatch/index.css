@@ -1,0 +1,64 @@
+/* Write your CSS here */
+.latestMatch-container {
+  width: 100%;
+  background-color: #1e293b;
+  border-style: solid;
+  border-width: 0px;
+  border-radius: 6px;
+  padding: 10px;
+}
+.latestMatch-logo-competing-team {
+  display: flex;
+  flex-direction: column;
+  color: #ffffff;
+  font-family: 'Bree Serif';
+  font-weight: 300;
+  font-size: 13px;
+  width: 100%;
+}
+.latestMatch-logo-initial-details {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.latestMatch-ct-logo-size {
+  height: 90px;
+  width: 55px;
+}
+hr {
+  width: 100%;
+}
+.competingTeam {
+  font-size: 22px;
+  font-weight: 600;
+}
+.written-para {
+  font-size: 18px;
+  font-weight: 500;
+}
+@media all and (min-width: 768px) {
+  .latestMatch-logo-competing-team {
+    flex-direction: row;
+    justify-content: space-between;
+    font-weight: 400;
+    font-size: 20px;
+  }
+  hr {
+    display: none;
+  }
+  .latestMatch-logo-initial-details {
+    width: 60%;
+  }
+  .latestMatch-ct-logo-size {
+    height: 150px;
+    width: 100px;
+  }
+  .competingTeam {
+    font-size: 30px;
+    font-weight: 800;
+  }
+  .written-para {
+    font-size: 24px;
+    font-weight: 600;
+  }
+}

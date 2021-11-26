@@ -1,0 +1,46 @@
+/* Write your CSS here */
+.teamCard-container {
+  height: 22%;
+  width: 45%;
+  border-style: solid;
+  border-width: 1px;
+  border-radius: 5px;
+  border-color: #ffffff;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 5px;
+  margin: 5px;
+  text-decoration: none;
+}
+.teamCard-image {
+  height: 90%;
+  width: 37%;
+}
+.teamCard-name {
+  font-family: 'Bree Serif';
+  font-size: 15px;
+  color: #ffffff;
+  font-weight: 500;
+  margin: 5px;
+  text-align: center;
+}
+@media all and (min-width: 768px) {
+  .teamCard-container {
+    height: 30%;
+    width: 43%;
+    margin: 10px;
+  }
+  .teamCard-image {
+    height: 90%;
+    width: 50%;
+  }
+  .teamCard-name {
+    font-size: 26px;
+  }
+}
+@media all and (width: 320px) {
+  .teamCard-name {
+    font-size: 12px;
+  }
+}

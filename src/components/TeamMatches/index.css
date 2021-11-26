@@ -1,0 +1,51 @@
+/* Write your CSS here */
+.CSK {
+  background-color: #f7db00;
+}
+.RCB {
+  background-color: #d91c1f;
+}
+.SH {
+  background-color: #f26d22;
+}
+.MI {
+  background-color: #4f5db0;
+}
+.DC {
+  background-color: #4f5db0;
+}
+.RR {
+  background-color: #da237b;
+}
+.KKR {
+  background-color: #13418b;
+}
+.KXP {
+  background-color: #a4261d;
+}
+.teamMatches-container {
+  height: 100vh;
+  width: 100vw;
+  padding-left: 10px;
+  padding-right: 10px;
+  padding-top: 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  overflow-y: auto;
+}
+.teamMatches-banner {
+  width: 100%;
+}
+.teamMatches-para-latest {
+  font-size: 15px;
+  text-align: start;
+  font-family: 'Bree Serif';
+  font-weight: 500;
+  color: #ffffff;
+}
+@media all and (min-width: 768px) {
+  .teamMatches-banner {
+    width: 100%;
+  }
+}

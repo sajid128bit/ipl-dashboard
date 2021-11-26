@@ -1,0 +1,69 @@
+/* Write your CSS here */
+.matchCard-container-list {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+.matchCard-container-unique {
+  width: 45%;
+  border-style: solid;
+  border-width: 0px;
+  border-radius: 5px;
+  margin: 5px;
+  padding: 5px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  align-items: center;
+  background-color: #1e293b;
+}
+.matchCard-logo-size {
+  height: 60px;
+  width: 40px;
+}
+.matchCard-teamName {
+  font-size: 18px;
+  font-family: 'Bree Serif';
+  color: #ffffff;
+  font-weight: 500;
+  text-align: center;
+}
+.matchCard-result {
+  font-size: 12px;
+  font-family: 'Bree Serif';
+  color: #ffffff;
+  font-weight: 300;
+  text-align: center;
+}
+.matchCard-status {
+  font-size: 15px;
+  font-weight: 500;
+  font-family: 'Bree Serif';
+}
+.red {
+  color: #a4261d;
+}
+.green {
+  color: #18ed66;
+}
+@media all and (min-width: 768px) {
+  .matchCard-container-unique {
+    width: 30%;
+    padding: 20px;
+  }
+  .matchCard-logo-size {
+    height: 130px;
+    width: 80px;
+  }
+  .matchCard-teamName {
+    font-size: 30px;
+  }
+  .matchCard-result {
+    font-size: 20px;
+  }
+  .matchCard-status {
+    font-size: 28px;
+  }
+}
