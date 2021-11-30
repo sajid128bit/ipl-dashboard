@@ -38,7 +38,7 @@ class TeamMatches extends Component {
           alt="team banner"
           className="teamMatches-banner"
         />
-        <p className="teamMatches-para-latest">Latest Matches</p>
+        <p className="teamMatches-para-latest">LATEST OPPONENT TEAMS</p>
         {latestMatchDetails === undefined ? (
           ''
         ) : (
